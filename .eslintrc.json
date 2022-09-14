@@ -1,0 +1,31 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": false
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-unused-vars":"error",
+        "no-tabs":["error", {"allowIndentationTabs": true}],
+        "no-console":"warn",
+        "no-undef":"off",
+        "func-names":"off",
+        "quotes": ["error", "backtick"],
+        "camelcase":"error"
+    }
+}
+
+
